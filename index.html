@@ -1,138 +1,148 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muneesh Khan - Resume</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #f4f4f9;
-            margin: 0;
-            padding: 0;
-            color: #333;
-        }
-        .container {
-            width: 80%;
-            margin: 20px auto;
-            background: #fff;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-        header {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.2rem;
-            color: #007acc;
-        }
-        header p {
-            margin: 5px 0;
-        }
-        h2 {
-            color: #444;
-            border-bottom: 2px solid #007acc;
-            padding-bottom: 5px;
-            margin-bottom: 10px;
-        }
-        ul {
-            margin: 0;
-            padding: 0 0 0 20px;
-        }
-        a {
-            color: #007acc;
-            text-decoration: none;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muneesh Khan — Professional Resume</title>
+  <style>
+    :root {
+      --accent: #007acc;
+      --text: #333;
+      --muted: #555;
+      --bg: #f4f4f9;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; background: var(--bg); color: var(--text);
+      font-family: Arial, sans-serif; line-height: 1.6;
+    }
+    .container {
+      max-width: 900px; margin: 40px auto; padding: 30px;
+      background: #fff; border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    header { margin-bottom: 20px; text-align: center; }
+    h1 {
+      font-size: 32px; margin: 0; color: var(--accent); font-weight: 700;
+    }
+    .subhead { font-size: 14px; color: var(--muted); margin: 4px 0; }
+    .links a { color: var(--accent); text-decoration: none; }
+    h2 {
+      font-size: 18px; margin: 24px 0 10px;
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 6px; font-weight: 600; color: #444;
+    }
+    ul { margin: 8px 0 0 18px; padding: 0; }
+    li { margin: 6px 0; }
+    .meta { color: var(--muted); font-size: 13px; }
+    .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+    .tag {
+      border: 1px solid #ccc; padding: 2px 8px;
+      border-radius: 12px; font-size: 12px; background: #f9f9f9;
+    }
+    footer {
+      text-align: center; font-size: 13px;
+      color: var(--muted); margin-top: 20px;
+    }
+    @media print {
+      .container { box-shadow: none; border: none; }
+      a { color: #000; text-decoration: none; }
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Muneesh Khan</h1>
-            <p>📍 Aligarh, Uttar Pradesh | 📞 +91-9193689362 | 📧 <a href="mailto:muneeshkhan7466@gmail.com">muneeshkhan7466@gmail.com</a></p>
-            <p>🔗 <a href="https://www.linkedin.com/in/muneesh-khan-3b54b628b" target="_blank">linkedin.com/in/muneesh-khan-3b54b628b</a> | 
-               💻 <a href="https://github.com/muneeshkhan" target="_blank">github.com/muneeshkhan</a></p>
-        </header>
+  <div class="container">
+    <header>
+      <h1>Muneesh Khan</h1>
+      <div class="subhead">Aligarh, Uttar Pradesh • +91 91936 89362 • <a href="mailto:muneeshkhan7466@gmail.com">muneeshkhan7466@gmail.com</a></div>
+      <div class="subhead links">
+        <a href="https://www.linkedin.com/in/muneesh-khan-3b54b628b" target="_blank" rel="noopener">LinkedIn</a> •
+        <a href="https://github.com/muneeshkhan" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </header>
 
-        <section class="section">
-            <h2>Career Objective</h2>
-            <p>Passionate Java Developer with hands-on experience in building scalable web and desktop applications. Seeking a software development role where I can leverage expertise in Java, MySQL, and modern web technologies to deliver impactful solutions.</p>
-        </section>
+    <section>
+      <h2>Career Objective</h2>
+      <p>Highly motivated Java Developer with a solid foundation in designing and developing scalable web and desktop applications. Eager to contribute technical expertise in Java, Spring Boot, React, and MySQL to deliver high-quality, efficient, and impactful solutions in a dynamic software development environment.</p>
+    </section>
 
-        <section class="section">
-            <h2>Education</h2>
-            <ul>
-                <li><strong>Bachelor of Computer Applications</strong> – Vision Institute of Technology, Aligarh (2022–2025) | CGPA: 8.2</li>
-                <li><strong>12th (Science)</strong> – UP Board (2021) | 56.2%</li>
-                <li><strong>10th (Science)</strong> – UP Board (2019) | 78.5%</li>
-            </ul>
-        </section>
+    <section>
+      <h2>Technical Skills</h2>
+      <ul>
+        <li><strong>Programming:</strong> Java, C, C++, Python, PHP</li>
+        <li><strong>Web Technologies:</strong> HTML, CSS, JavaScript, XML</li>
+        <li><strong>Frameworks:</strong> Spring Boot, Hibernate (JPA), React</li>
+        <li><strong>Databases:</strong> MySQL, PostgreSQL</li>
+        <li><strong>Tools:</strong> Git, GitHub, VS Code, Eclipse, Postman, Maven</li>
+        <li><strong>Operating Systems:</strong> Windows, Linux</li>
+      </ul>
+      <div class="tags">
+        <span class="tag">Core Java</span><span class="tag">OOP</span><span class="tag">Collections</span><span class="tag">Multithreading</span><span class="tag">REST APIs</span><span class="tag">Spring Boot</span><span class="tag">Hibernate</span><span class="tag">React</span><span class="tag">MySQL</span><span class="tag">PostgreSQL</span><span class="tag">Git</span><span class="tag">Maven</span>
+      </div>
+    </section>
 
-        <section class="section">
-            <h2>Technical Skills</h2>
-            <ul>
-                <li><strong>Programming:</strong> Java , C, C++, Python, PHP</li>
-                <li><strong>Web:</strong> HTML, CSS, JavaScript, XML</li>
-                <li><strong>Database:</strong> MySQL, PostgreSQL</li>
-                <li><strong>OS:</strong> Windows, Linux</li>
-                <li><strong>Tools:</strong> Git, GitHub, VS Code, Eclipse, Postman, Maven</li>
-                <li><strong>Frameworks:</strong> React, Spring Boot, Hibernate</li>
-            </ul>
-        </section>
+    <section>
+      <h2>Education</h2>
+      <ul>
+        <li><strong>Bachelor of Computer Applications</strong> — Vision Institute of Technology, Aligarh (2022–2025) | CGPA: 8.2</li>
+        <li><strong>12th (Science)</strong> — UP Board (2021) | 56.2%</li>
+        <li><strong>10th</strong> — UP Board (2019) | 78.5%</li>
+      </ul>
+    </section>
 
-        <section class="section">
-            <h2>Projects</h2>
-            <ul>
-                <li><strong>Student Management System</strong> – Java + MySQL  
-                    GitHub: <a href="https://github.com/muneeshkhan/student-management" target="_blank">View Project</a>  
-                    Developed CRUD operations with authentication, improving record management efficiency by 40%.
-                </li>
-                <li><strong>Personal Portfolio Website</strong> – HTML, CSS, JavaScript  
-                    Live: <a href="#" target="_blank">View Website</a>  
-                    Showcases personal projects and technical skills in a responsive design.
-                </li>
-                <li><strong>Library Management System</strong> – C++  
-                    Implemented book tracking and borrowing features for efficient library operations.
-                </li>
-            </ul>
-        </section>
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Student Management System</strong> — Java, Spring Boot, MySQL | <a href="https://github.com/muneeshkhan/student-management" target="_blank">GitHub</a>
+          <ul>
+            <li>Developed secure CRUD functionalities with authentication, increasing operational efficiency by 40%.</li>
+            <li>Optimized database queries and designed a normalized schema to reduce response time by 30%.</li>
+          </ul>
+        </li>
+        <li><strong>Personal Portfolio Website</strong> — HTML, CSS, JavaScript | <a href="#" target="_blank">Live</a>
+          <ul>
+            <li>Designed and developed a responsive, user-friendly portfolio showcasing skills and projects.</li>
+            <li>Optimized for performance with mobile-first design and asset minification.</li>
+          </ul>
+        </li>
+        <li><strong>Library Management System</strong> — C++
+          <ul>
+            <li>Implemented features for inventory management, borrowing/returning workflows, and search functionality.</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
 
-        <section class="section">
-            <h2>Certifications</h2>
-            <ul>
-                <li>Java for Beginners – GeeksforGeeks (2024)</li>
-                <li>Web Development Bootcamp – Udemy (2023)</li>
-                <li>Git & GitHub Essentials – Great Learning (2023)</li>
-            </ul>
-        </section>
+    <section>
+      <h2>Certifications</h2>
+      <ul>
+        <li>Java for Beginners — GeeksforGeeks (2024)</li>
+        <li>Web Development Bootcamp — Udemy (2023)</li>
+        <li>Git &amp; GitHub Essentials — Great Learning (2023)</li>
+      </ul>
+    </section>
 
-        <section class="section">
-            <h2>Soft Skills</h2>
-            <ul>
-                <li>Problem-Solving</li>
-                <li>Team Collaboration</li>
-                <li>Adaptability</li>
-            </ul>
-        </section>
+    <section>
+      <h2>Soft Skills</h2>
+      <ul>
+        <li>Problem Solving</li>
+        <li>Team Collaboration</li>
+        <li>Adaptability</li>
+      </ul>
+    </section>
 
-        <section class="section">
-            <h2>Languages</h2>
-            <ul>
-                <li>English</li>
-                <li>Hindi</li>
-            </ul>
-        </section>
+    <section>
+      <h2>Languages</h2>
+      <ul>
+        <li>English</li>
+        <li>Hindi</li>
+      </ul>
+    </section>
 
-        <footer style="text-align: center; margin-top: 20px;">
-            <p>© 2025 Muneesh Khan | Designed for ATS & Professional Use</p>
-        </footer>
-    </div>
+    <footer>
+      © 2025 Muneesh Khan | Professional ATS-Optimized Resume
+    </footer>
+  </div>
 </body>
 </html>
